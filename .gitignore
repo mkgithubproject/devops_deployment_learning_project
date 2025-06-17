@@ -3,3 +3,17 @@ node_modules/
 
 # Environment variables
 .env
+
+.env.cleaned
+
+# Terraform-related state and sensitive files
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# SSH Private Keys (very sensitive!)
+*.pem
+

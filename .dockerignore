@@ -1,0 +1,13 @@
+# Terraform / Ansible / DevOps tools
+devops_todo/
+terraform.sh
+
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log
+.env
+.env.cleaned
